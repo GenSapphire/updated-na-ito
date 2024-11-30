@@ -1,0 +1,353 @@
+/* Main content here Kyusi Esports */
+/* DEFAULT CSS NG CONTENTS AND SIGN UP */
+/*updated*/
+    
+.content {
+    margin: 4.625rem 9.375rem 0 8.6875rem;
+}
+
+.h1title {
+    font-size: clamp(2.5rem, 6vw, 4.5rem); 
+    line-height: 4.125rem;
+    font-family: 'ZuumeEL';
+}
+
+.h2content {
+    font-size: clamp(1.25rem, 3vw, 2.5rem); 
+    font-family: 'ZuumeEL';
+    font-weight: 200;
+    color: #C1C1C1;
+}
+
+.box {
+    margin: 5.6rem 9.3rem 3rem 8.6rem;
+    padding: 0 1.875rem;
+    width: 80%;
+    height: 12.5rem;
+    background-color: #252525;
+    box-shadow: #C1C1C1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.875rem;
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+
+
+.jointheteam {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'ZuumeEL';
+    color: #cb0c43;
+    flex: 1;
+}
+
+.jtth1, .jtth2 {
+    transition: all 0.3s ease;
+}
+
+.jtth1 {
+    font-size: clamp(2rem, 11vw, 6.5rem);
+    color: #cb0c43;
+}
+
+.jtth2 {
+    font-size: clamp(0.2rem, 3.42vw, 2.15rem);
+    color: rgb(255, 255, 255);
+    margin-top: -30px;
+}
+
+.inputsignup {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.inputtype {
+    width: 80%;
+    height: 2.5rem;
+    font-size: 1.125rem;
+    border-radius: 0.625rem;
+}
+
+.signup {
+    color: white;
+    margin-left: 0.625rem;
+    width: 8.125rem;
+    height: 2.5rem;
+    font-size: 1.0625rem;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    background-color: #cb0c43;
+}
+
+/* RESPONSIVENESS NG CONTENTS NG MEMBERSHIP */
+@media (max-width: 1611px) {
+    .content {
+        margin: 4.625rem 7.375rem 0 6.6875rem;
+    }
+
+    .box {
+        margin: 5.6rem 9.3rem 3rem 7.6rem;
+    }
+
+    .jointheteam {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'ZuumeEL';
+        color: #cb0c43;
+        margin-left: -10px;
+        flex: 1;
+    }
+
+    .jtth1 {
+        font-size: clamp(2rem, 8vw, 6.3rem);
+    }
+
+    .jtth2 {
+        font-size: clamp(0.5rem, 4vw, 2rem);
+        margin-top: -30px;
+    }
+
+    .inputsignup {
+        width: 50%;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+
+    .inputtype {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1370px) {
+    .content {
+        margin: 4.125rem 6rem 0 5.5rem;
+    }
+
+    .inputsignup {
+        width: 43%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 5px;
+    }
+    .jtth1 {
+        font-size: clamp(2rem, 8vw, 6rem);
+    }
+
+    .jtth2 {
+        font-size: clamp(0.5rem, 4vw, 1.5rem);
+        margin-top: -20px;
+    }
+
+    .inputtype {
+        width: 90%;
+    }
+
+    .signup {
+        width: 90%;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .content {
+        margin: 3.125rem 4rem 0 3.5rem;
+    }
+
+    .box {
+        height: 15.5rem;
+        margin: 5.6rem 7rem 5rem 6rem;
+    }
+
+    .jointheteam {
+        margin: 0;
+        flex: 1;
+    }
+
+    .jtth1 {
+        font-size: clamp(3rem, 10vw, 5rem);
+    }
+
+    .jtth2 {
+        font-size: clamp(1.9rem, 9vw, 1.5rem);
+        margin-top: -20px;
+    }
+
+    .inputsignup {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .inputtype {
+        width: 60%;
+        margin-left: 10px;
+    }
+
+    .signup {
+        width: 60%;
+    }
+}
+
+@media (max-width: 912px) {
+    .box {
+        margin: 5.6rem 3rem 5rem 5.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        margin: 2.125rem 2rem 0 1.5rem;
+    }
+
+    .box {
+        height: 17rem;
+        margin: 5.6rem 3.3rem 3rem 4.5rem;
+    }
+
+    .jtth1 {
+        font-size: clamp(2rem, 11vw, 9rem);
+    }
+
+    .jtth2 {
+        font-size: clamp(0.4rem, 8vw, 1.7rem);
+        margin-top: -20px;
+    }
+
+    .inputsignup {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inputtype {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .signup {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .content {
+        margin: 1.125rem 1rem 0 1.5rem;
+    }
+
+    .box {
+        height: 13rem;
+        margin: 5.6rem 3.3rem 3rem 3.7rem;
+    }
+
+    .jtth1 {
+        font-size: clamp(3.7rem, 11vw, 9rem);
+    }
+
+    .jtth2 {
+        font-size: clamp(0.5rem, 4.2vw, 1.4rem);
+        margin-top: -20px;
+    }
+
+    
+    .inputsignup {
+        width: 90%;
+        margin-left: -1rem;
+    }
+
+    .inputtype {
+        width: 100%;
+        
+    }
+
+    .signup {
+        width: 100%;
+    }
+}
+
+@media (max-width: 514px) {
+    .box {
+        margin: 5.6rem 7rem 5rem 3rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .content {
+        margin: 1rem 1rem 0 1.5rem;
+    }
+
+    .box {
+        height: 11rem;
+        margin: 5.6rem 3.3rem 3rem 2.6rem;
+    }
+
+    .jtth1 {
+        font-size: clamp(3rem, 9vw, 6rem);
+    }
+
+    .jtth2 {
+        font-size: clamp(0.5rem, 4.2vw, 1.4rem);
+        margin-top: -20px;
+        text-align: center;
+    }
+
+    
+    .inputsignup {
+        width: 100%;
+    }
+
+    .inputtype {
+        width: 90%;
+        height: 30px;
+    }
+
+    .signup {
+        width: 90%;
+        height: 30px;
+    }
+    ::placeholder {
+        font-size: 13px;
+    }
+}
+@media (max-width: 375px) {
+    .box {
+        margin: 5.6rem 3.3rem 3rem 2rem;
+    }
+}
+@media (max-width: 324px) {
+    .jointheteam {
+        padding-left: -50px;
+        font-size: clamp(0.5rem, 9vw, 1.5rem);
+    }
+    .box {
+        margin: 5.6rem 3.3rem 3rem 2rem;
+    }
+    .inputsignup {
+        width: 100%;
+        margin-left: -20px;
+    }
+    .inputtype {
+        width: 100%;
+        height: 30px;
+    }
+
+    .signup {
+        width: 100%;
+        height: 30px;
+    }
+}
